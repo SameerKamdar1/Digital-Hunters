@@ -21,6 +21,8 @@ body {
 }
 
 main {
+  position: relative;
+  overflow: hidden;
   width: 100vw;
   min-height: 100vh;
 }
@@ -170,17 +172,16 @@ nav .contact-us:hover {
 
 .cyborg {
   width: 100%;
-  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  z-index: -1;
 }
 .cyborg img {
   width: clamp(16rem, 40vw, 70rem);
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  z-index: -1;
 }
 
 @media (max-width: 768px) {
@@ -195,7 +196,7 @@ nav .contact-us:hover {
   .hero-right {
     display: none;
   }
-  .cyborg img {
-    left: 50%;
+  .cyborg {
+    left: 38%;
   }
 }/*# sourceMappingURL=index.css.map */

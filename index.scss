@@ -20,6 +20,8 @@ body {
     background-repeat: no-repeat;
 }
 main{
+    position: relative;
+    overflow: hidden;
     width: 100vw;
     min-height: 100vh;
 }
@@ -208,15 +210,15 @@ nav {
 }
 .cyborg{
      width: 100%;
-    overflow: hidden;
+      position: absolute;
+       top: 10%;
+    left: 30%;
+    z-index: -1;
     img{
        width: clamp(16rem, 40vw, 70rem);
         max-width: 100%;
         object-fit: cover;
-        position: absolute;
-       top: 10%;
-    left: 30%;
-    z-index: -1;
+       
     }
 }
 
@@ -237,7 +239,7 @@ nav {
    .hero-right{
     display: none;
    }
-   .cyborg img{
-    left: 50%;
+   .cyborg {
+    left: 38%;
    }
 }
