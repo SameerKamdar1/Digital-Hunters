@@ -23,7 +23,7 @@ body {
 main {
   position: relative;
   overflow: hidden;
-  width: 100vw;
+  max-width: 100vw;
   min-height: 100vh;
 }
 
@@ -182,6 +182,35 @@ nav .contact-us:hover {
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.glass-panel {
+  padding: 2rem;
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.062745098);
+  border: 1px solid rgba(255, 255, 255, 0.186);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 2rem;
+  gap: 4rem;
+  border-radius: 2rem;
+}
+.glass-panel .stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.glass-panel .stats h1 {
+  color: #0cd5b7;
+  font-family: "Orbitron", sans-serif;
+}
+.glass-panel .stats p {
+  color: rgba(255, 255, 255, 0.7176470588);
+  font-size: clamp(0.8rem, 1vw, 1.5rem);
 }
 
 @media (max-width: 768px) {
