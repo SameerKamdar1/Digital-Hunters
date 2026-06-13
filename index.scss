@@ -401,12 +401,19 @@ nav {
     justify-content: center;
     margin: 1rem 2rem;
     gap: 3rem;
+    
+    .blocks{
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .steps {
         width: 10rem;
         height: 11rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         gap: 1rem;
         border: 1px solid#0cd5b7;
         border-radius: 2rem;

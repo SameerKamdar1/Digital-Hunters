@@ -326,6 +326,12 @@ nav .contact-us:hover {
   margin: 1rem 2rem;
   gap: 3rem;
 }
+.planning .blocks {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .planning .steps {
   width: 10rem;
   height: 11rem;
