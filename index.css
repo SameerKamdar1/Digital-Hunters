@@ -355,9 +355,10 @@ nav .contact-us:hover {
   border: 1px solid #0cd5b7;
   padding: 2rem;
   margin: 0 2rem;
+  flex-wrap: wrap;
+  gap: 5rem;
   border-radius: 1rem;
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
 }
@@ -487,6 +488,30 @@ footer .rest-links {
     justify-content: center;
   }
   .contacts .left-sec {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 1134px) {
+  .contacts {
+    justify-content: center;
+  }
+  .contacts .left-sec {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 692px) {
+  .contacts .right-sec {
+    justify-content: center;
+  }
+  .contacts .right-sec .line {
+    display: none;
+  }
+  .contacts .right-sec .sub-left-sec {
+    align-items: center;
+  }
+  .contacts .right-sec .sub-right-sec {
     align-items: center;
   }
 }
