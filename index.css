@@ -173,7 +173,7 @@ nav .contact-us:hover {
 .cyborg {
   width: 100%;
   position: absolute;
-  top: 10%;
+  top: 2%;
   left: 30%;
   z-index: -1;
 }
@@ -213,12 +213,281 @@ nav .contact-us:hover {
   font-size: clamp(0.8rem, 1vw, 1.5rem);
 }
 
+.our-projects {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+.our-projects h3 {
+  color: #0cd5b7;
+}
+.our-projects h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.projects {
+  display: flex;
+  padding: 3rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+.projects .project-sec {
+  backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  width: 27rem;
+  overflow: hidden;
+  border: 2px solid #0cd5b7;
+}
+.projects .project-sec .pic {
+  width: 100%;
+  height: 16rem;
+  overflow: hidden;
+}
+.projects .project-sec .pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects .project-sec p {
+  color: #ffffff;
+  padding: 1rem;
+}
+.projects .project-sec .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.projects .project-sec .links .logos {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.projects .project-sec .links .logos .fa-android {
+  font-size: 1.7rem;
+  color: rgb(0, 199, 176);
+  transition: text-shadow 1s ease;
+}
+.projects .project-sec .links .logos .fa-android:hover {
+  text-shadow: 0 0 10px rgb(150, 244, 233);
+}
+.projects .project-sec .links .logos .fa-apple {
+  font-size: 2rem;
+  color: #ffffff;
+  transition: text-shadow 0.5s ease;
+}
+.projects .project-sec .links .logos .fa-apple:hover {
+  text-shadow: 0 0 10px #ffffff;
+}
+.projects .project-sec .links .logos .fa-meta {
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: text-shadow 0.5s ease;
+}
+.projects .project-sec .links .logos .fa-meta:hover {
+  text-shadow: 0 0 10px #ffffff;
+  transition: text-shadow 0.5s ease;
+}
+.projects .project-sec .links .arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #0cd5b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+.projects .project-sec .links .arrow img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.how-we-work {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.how-we-work span {
+  color: #0cd5b7;
+}
+
+.planning {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 2rem;
+  gap: 3rem;
+}
+.planning .steps {
+  width: 10rem;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid #0cd5b7;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.planning .steps h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #0cd5b7;
+  font-weight: 400;
+}
+.planning .steps .heading {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.planning .steps .dits {
+  color: rgba(255, 255, 255, 0.4470588235);
+  font-size: 0.8rem;
+}
+
+.contacts {
+  border: 1px solid #0cd5b7;
+  padding: 2rem;
+  margin: 0 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.contacts .left-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contacts .left-sec h1 {
+  font-size: 1.5rem;
+  font-family: "Orbitron", sans-serif;
+  color: #ffffff;
+}
+.contacts .left-sec h1 span {
+  color: #0cd5b7;
+}
+.contacts .left-sec p {
+  color: rgba(255, 255, 255, 0.4470588235);
+  font-size: 0.8rem;
+}
+.contacts .left-sec .contact-us {
+  width: 10rem;
+  padding: clamp(0.3rem, 1vw, 1rem) clamp(0.8rem, 1.5vw, 1.5rem);
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  border: 2px solid #0cd5b7;
+  transition: box-shadow 2s ease;
+}
+.contacts .left-sec .contact-us p {
+  color: #ffffff;
+  font-size: clamp(0.8rem, 1vw, 2rem);
+}
+.contacts .left-sec .contact-us:hover {
+  box-shadow: inset 60px 0 60px #0cd5b7, 0 0 10px #0cd5b7;
+}
+.contacts .right-sec {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 3rem;
+}
+.contacts .right-sec .sub-left-sec {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1.4rem;
+}
+.contacts .right-sec .sub-left-sec .company-logo {
+  width: 12rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contacts .right-sec .sub-left-sec p {
+  color: rgba(255, 255, 255, 0.4470588235);
+  font-size: 0.8rem;
+}
+.contacts .right-sec .sub-left-sec .socials {
+  width: 7rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 0.8rem;
+}
+.contacts .right-sec .sub-left-sec .socials img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contacts .right-sec .line {
+  width: 1px;
+  height: 10rem;
+  background-color: rgba(255, 255, 255, 0.6549019608);
+}
+.contacts .right-sec .sub-right-sec {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contacts .right-sec .sub-right-sec h1 {
+  color: #0cd5b7;
+  font-size: 1.4rem;
+  font-family: "Orbitron", sans-serif;
+}
+.contacts .right-sec .sub-right-sec .conts {
+  display: flex;
+  gap: 0.8rem;
+}
+.contacts .right-sec .sub-right-sec .conts img {
+  width: 1.2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contacts .right-sec .sub-right-sec .conts p {
+  color: rgba(255, 255, 255, 0.4470588235);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: clamp(0.8rem, 1vw, 2rem);
+}
+footer .rest-links {
+  display: flex;
+  gap: 2rem;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: clamp(1rem, 2vw, 3rem);
   }
   nav ul {
     display: none;
+  }
+  .contacts {
+    justify-content: center;
+  }
+  .contacts .left-sec {
+    align-items: center;
   }
 }
 @media (max-width: 560px) {
