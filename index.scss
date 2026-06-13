@@ -401,8 +401,8 @@ nav {
     justify-content: center;
     margin: 1rem 2rem;
     gap: 3rem;
-    
-    .blocks{
+
+    .blocks {
         display: flex;
         gap: 3rem;
         flex-wrap: wrap;
@@ -413,7 +413,7 @@ nav {
         width: 10rem;
         height: 11rem;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         gap: 1rem;
         border: 1px solid#0cd5b7;
         border-radius: 2rem;
@@ -576,7 +576,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 3rem 2.5rem;
-    gap:1rem;
+    gap: 1rem;
 
     a {
         text-decoration: none;
@@ -628,36 +628,36 @@ footer {
     }
 }
 
-    @media (max-width: 692px) {
+@media (max-width: 692px) {
 
 
-        .contacts .right-sec {
-            justify-content: center;
-           
-            .line {
-                display: none;
-            }
+    .contacts .right-sec {
+        justify-content: center;
 
-            .sub-left-sec {
-                align-items: center;
-            }
-
-            .sub-right-sec {
-                align-items: center;
-            }
-        }
-
-
-
-
-    }
-
-    @media (max-width: 560px) {
-        .hero-right {
+        .line {
             display: none;
         }
 
-        .cyborg {
-            left: 38%;
+        .sub-left-sec {
+            align-items: center;
+        }
+
+        .sub-right-sec {
+            align-items: center;
         }
     }
+
+
+
+
+}
+
+@media (max-width: 560px) {
+    .hero-right {
+        display: none;
+    }
+
+    .cyborg {
+        left: 38%;
+    }
+}
